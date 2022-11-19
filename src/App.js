@@ -1,12 +1,12 @@
-
+import Cartitem from './Cartitem';
 import './App.css';
 
 function App() {
     return (
       <div className="App">
-        <h1>Cart</h1>
+        
+        <Cartitem/>
       </div>
     );
 }
-
 export default App;
