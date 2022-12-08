@@ -42,8 +42,8 @@ class Cartitem extends React.Component {
                 </div>
                 <div className='right-block'>
                     <div style={{fontSize:25}}>{title}</div>
-                    <div style={{color:'#777'}}>Rs. {price}</div>
-                    <div style={{color:'#777'}}>Qty :{qty}</div>
+                    <div style={{color:'#777'}}> Rs. {price}</div>
+                    <div style={{color:'#777'}}> Qty : {qty}</div>
                     <div id='cart-item-actions'>
                         {/* {buttons} */}
                         <img alt='increase' className='action-icons' src='https://as2.ftcdn.net/v2/jpg/01/07/62/07/1000_F_107620769_UwNVSoXnKS4VNcOKoZjPohlEPn83oE38.jpg' onClick={this.increaseQuanity.bind(this)}/>
