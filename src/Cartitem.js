@@ -25,7 +25,7 @@ class Cartitem extends React.Component {
     }
     decreaseQuantity=()=>{
         const {qty} = this.state;
-        if (qty==0){
+        if (qty===0){
             return;
         }
         console.log('this', this.state);
