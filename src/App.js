@@ -1,11 +1,12 @@
-import Cartitem from './Cartitem';
 import './App.css';
+import Cart from './cart';
 
 function App() {
     return (
       <div className="App">
         
-        <Cartitem/>
+        <Cart/>
+        {/* <Calculator/> */}
       </div>
     );
 }
